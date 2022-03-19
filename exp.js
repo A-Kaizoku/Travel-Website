@@ -1,7 +1,8 @@
-// scroll effects
+//! scroll effects
 //https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect
 
-//1st method
+//*1st method
+//Using eventListeners
 
 // const hikeExp=document.querySelector(".hike-exp");
 // console.log(hikeExp)
@@ -14,7 +15,7 @@
     
 // })
 
-//2nd method
+//*2nd method
 //https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API
 
 // const slide=document.querySelector('.hike');
@@ -41,8 +42,8 @@
 
 // observer.observe(slide);
 
-//3rd scroll magic
-
+//*3rd scroll magic
+//https://scrollmagic.io/docs/index.html
 
 // const controller=new ScrollMagic.Controller();
 // const exploreScene=new ScrollMagic.Scene({
